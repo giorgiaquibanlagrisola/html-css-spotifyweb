@@ -14,7 +14,42 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+
+footer {
+    height: 80px;
+    background-color: skyblue;
+}
+
+#primary {
+    height: calc(100vh - 80px);
+    background-color: blue;
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    background-color: rebeccapurple;
+}
+
+main {
+    width: calc(100% - 200px);
+    background-color: lime;
+}
+
+header {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#upgrade {
+    border: red solid 1px;
+}
+
+#music {
+    width: 100%;
+    /* padding-top: 80px; */
+    background-color: lightgreen;
 }
